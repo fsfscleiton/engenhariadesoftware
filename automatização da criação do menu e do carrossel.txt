@@ -1,3 +1,6 @@
+https://www.synthesia.io/es/post/herramientas-de-ia
+40 ias
+
 automatização da criação das div slide
 
 cria uma pagina html que recebe um texto no padrao abaixo e estrutura ele confrme a explicação abaixo
