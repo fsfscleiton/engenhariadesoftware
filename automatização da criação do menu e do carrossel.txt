@@ -1,0 +1,1879 @@
+automatização da criação das div slide
+
+cria uma pagina html que recebe um texto no padrao abaixo e estrutura ele confrme a explicação abaixo
+
+29 linhas
+a primeira de um paragrafo linha contem aproximadamente 45 caraceteres devido ao recuo
+as demais 50 caracteres aproximadamente
+então a cada <p> deve se calcular quantos caracteres foram utilizados
+se o slide pode conter 29 linhas e ja foram usadas 22 temos mais 7 linhas,
+
+Tema 1 - Apresentação
+Módulo 1 - Requisitos de Especificação
+O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; 
+
+Módulo 1 - Requisitos de Especificação
+O que realmente o sistema deve fazer; 
+
+quando for um texto, que *não* contenha o formato tema (Tema 1 – Apresentação) ou o formanto modulo (palavra Módulo + numeral do módulo 1 + travessão – + palavras iniciadas com letras maiúsculas sem ponto final Introdução)  ela deve distribuir esse texto entre as div slide de texto <div class="slide">, cada slide pode conter até 1570 caracteres, dentro de cada slide o texto do conteúdo deve estar dentro de uma div <div class="textoJustificado">
+
+<div class="slide">
+    <div class="textoJustificado">
+        <p>O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; </p>
+    </div>
+</div>
+
+
+se o texto tiver quebras de linha ou simbolos ele deve ser gerado com quebras de linha simbolos automaticamente
+
+✅ O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?
+
+✅ O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?
+
+✅ O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?
+
+<div class="slide">
+    <div class="textoJustificado">
+        <p>✅ O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?</p>
+	<p></p>p ou o que for melhor
+
+        <p>✅ O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?</p>
+	<p></p>p ou o que for melhor
+
+        <p>✅ O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?</p>
+	<p></p>p ou o que for melhor
+
+    </div>
+</div>
+
+<div class="slide">
+    <div class="textoJustificado">
+        <p>O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; </p>
+    </div>
+</div>
+
+
+Módulo 1 – Introdução
+se tiver o formato modulo deve ser colocado dentro de uma div slide sozinho e receber a div a classe modulo
+<div class="slide">
+    <div class="modulo">
+        Módulo 1 – Introdução
+    </div>
+</div>
+
+Tema 1 - Apresentação
+se tiver o formato tema o deve ser colocado dentro de uma div slide sozinho e receber a div classe tema
+
+<div class="slides">
+
+    <!-- Tema 1 - Apresentação -->
+<div class="slide">
+    <div class="tema">
+        <p>Tema 1 – Apresentação</p>
+    </div>
+</div>
+
+
+SOLUÇÃO QUE separa temas e modulos mas nao o texto
+<*------------------------------------*>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerador de Código para Slides</title>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    textarea {
+        width: 80%;
+        height: 200px;
+        margin: 20px 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .output-container {
+        width: 80%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Gerador de Código para Slides</h2>
+<textarea id="inputText" placeholder="Cole seu texto aqui..."></textarea>
+<button onclick="generateSlides()">Gerar Código</button>
+
+<div class="output-container">
+  <textarea id="outputText" readonly placeholder="Código gerado aparecerá aqui..."></textarea>
+  <button onclick="copyToClipboard()">Copiar Código</button>
+</div>
+
+<script>
+function generateSlides() {
+    const text = document.getElementById("inputText").value.trim();
+    const outputText = document.getElementById("outputText");
+    
+    if (!text) {
+        alert("Por favor, insira um texto.");
+        return;
+    }
+
+    const slides = [];
+    let currentSlideText = "";
+    const maxCharsPerSlide = 1570;
+
+    // Expressões Regulares para identificar TEMA e MÓDULO
+    // Ajuste se precisar de um padrão mais específico
+    const temaRegex = /^Tema\s+\d+\s*-\s*(.*)$/i;    // Ex.: "Tema 1 - Apresentação"
+    const moduloRegex = /^Módulo\s\d+\s–\s[A-ZÁÉÍÓÚÂÊÎÔÛ][^\.\n]*/; // Ex.: "Módulo 1 - Introdução"
+
+    // Função para fechar (empurrar) o slide atual, se houver texto acumulado
+    function pushCurrentSlide() {
+        if (currentSlideText) {
+            slides.push(
+                `<div class="slide">\n` +
+                `    <div class="textoJustificado">\n` +
+                `        ${currentSlideText}\n` +
+                `    </div>\n` +
+                `</div>\n`
+            );
+            currentSlideText = "";
+        }
+    }
+
+    // Esta função tenta adicionar um "trecho" (lineChunk) de texto ao slide atual,
+    // dividindo em múltiplos slides se passar do limite de 1570 caracteres.
+    function addChunkToSlide(lineChunk) {
+        // Enquanto houver texto a adicionar
+        while (lineChunk.length > 0) {
+            // Verifica o espaço livre que ainda resta no slide atual
+            const spaceLeft = maxCharsPerSlide - currentSlideText.length;
+
+            // Se não houver espaço no slide atual (ou for zero/negativo), empurra e zera
+            if (spaceLeft <= 0) {
+                pushCurrentSlide();
+                continue;
+            }
+
+            // Se o trecho cabe todo no slide atual
+            if (lineChunk.length <= spaceLeft) {
+                currentSlideText += `<p>${lineChunk}</p>\n    `;
+                lineChunk = ""; // esvaziamos a linha, pois já foi toda adicionada
+            } 
+            else {
+                // Se não couber inteiro, corta a parte que cabe e reitera
+                const partThatFits = lineChunk.slice(0, spaceLeft);
+                currentSlideText += `<p>${partThatFits}</p>\n    `;
+                lineChunk = lineChunk.slice(spaceLeft); 
+                
+                // Se ainda houver texto, precisamos abrir um novo slide
+                pushCurrentSlide();
+            }
+        }
+    }
+
+    // 1) Dividir o texto completo em "linhas" (pelo \n)
+    const lines = text.split("\n");
+
+    // 2) Iterar em cada linha para identificar TEMA, MÓDULO ou texto comum
+    lines.forEach(rawLine => {
+        const line = rawLine.trim();
+        if (!line) return; // ignora linha vazia
+
+        // Detecta TEMA
+        if (temaRegex.test(line)) {
+            // Se houver conteúdo acumulado, empurra como slide
+            pushCurrentSlide();
+            // Cria slide exclusivo para o TEMA
+            slides.push(
+                `<div class="slide">\n` +
+                `    <div class="tema">\n` +
+                `        <p>${line}</p>\n` + 
+                `    </div>\n` +
+                `</div>\n`
+            );
+
+        // Detecta MÓDULO
+        } else if (moduloRegex.test(line)) {
+            // Se houver conteúdo acumulado, empurra como slide
+            pushCurrentSlide();
+            // Cria slide exclusivo para o MÓDULO
+            slides.push(
+                `<div class="slide">\n` +
+                `    <div class="modulo">\n` +
+                `        ${line}\n` +
+                `    </div>\n` +
+                `</div>\n`
+            );
+
+        // Texto comum
+        } else {
+            // Podemos adicionar essa linha (ou seu "chunk") slide a slide
+            addChunkToSlide(line);
+        }
+    });
+
+    // Se sobrou conteúdo no slide atual, fecha
+    pushCurrentSlide();
+
+    // Exibe o resultado no output
+    outputText.value = slides.join("");
+}
+
+function copyToClipboard() {
+    const outputText = document.getElementById("outputText");
+    outputText.select();
+    document.execCommand("copy");
+    alert("Código copiado para a área de transferência!");
+}
+</script>
+</body>
+</html>
+
+<*------------------------------------*>
+
+
+o texto é separado dinamica mente de acordo com o tamanho da tela
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quebra de Slides</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      margin-bottom: 10px;
+      font-size: 12pt;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 12pt;
+      cursor: pointer;
+    }
+    #slidesContainer {
+      margin-top: 20px;
+    }
+    .slides {
+      width: 50vh;
+      height: 100vh;
+      transition: transform 0.4s ease-in-out;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow: hidden;
+      white-space: pre-wrap;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .textoJustificado {
+      text-align: justify;
+      text-justify: inter-word;
+      word-break: break-word;
+      white-space: pre-wrap;
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quebra de Slides</h1>
+  <textarea id="inputText" placeholder="Insira seu texto aqui..."></textarea>
+  <br>
+  <button onclick="processText()">Processar Texto</button>
+  
+  <!-- Os slides gerados serão inseridos aqui -->
+  <div id="slidesContainer"></div>
+  
+  <script>
+    function processText() {
+      // Obtém o texto do usuário
+      const text = document.getElementById("inputText").value;
+      const container = document.getElementById("slidesContainer");
+      container.innerHTML = "";  // Limpa slides anteriores
+      
+      // Dividimos o texto em "tokens" (palavras e os espaços em branco)
+      const tokens = text.split(/(\s+)/);
+      
+      // Variável que acumula o conteúdo do slide corrente
+      let slideContent = "";
+      
+      // Cria o primeiro slide
+      let slide = document.createElement("div");
+      slide.className = "slides";
+      
+      // Criamos um container para o texto justificado dentro do slide
+      let textoDiv = document.createElement("div");
+      textoDiv.className = "textoJustificado";
+      slide.appendChild(textoDiv);
+      container.appendChild(slide);
+      
+      // Para cada token (palavra, espaço, quebra de linha, etc.)
+      tokens.forEach(token => {
+        let tentativeContent = slideContent + token;
+        textoDiv.innerHTML = `<p>${tentativeContent}</p>`;
+        
+        // Se o conteúdo ultrapassar a área disponível do slide...
+        if (slide.scrollHeight > slide.clientHeight) {
+          // Finaliza o slide atual (reverte a adição do token)
+          textoDiv.innerHTML = `<p>${slideContent}</p>`;
+          
+          // Cria um novo slide para continuar com o restante do texto
+          slide = document.createElement("div");
+          slide.className = "slides";
+          
+          textoDiv = document.createElement("div");
+          textoDiv.className = "textoJustificado";
+          slide.appendChild(textoDiv);
+          container.appendChild(slide);
+          
+          // O token que não coube inicia o novo slide
+          slideContent = token;
+          textoDiv.innerHTML = `<p>${slideContent}</p>`;
+          
+          // Se o token for muito grande (por exemplo, uma palavra sem espaços que ultrapassa o limite)
+          if (slide.scrollHeight > slide.clientHeight) {
+            let partial = "";
+            for (let j = 0; j < token.length; j++) {
+              let char = token[j];
+              let tentative = partial + char;
+              textoDiv.innerHTML = `<p>${tentative}</p>`;
+              if (slide.scrollHeight > slide.clientHeight) {
+                break;
+              } else {
+                partial = tentative;
+              }
+            }
+            textoDiv.innerHTML = `<p>${partial}</p>`;
+            slideContent = partial;
+          }
+        } else {
+          // Se couber, atualiza o conteúdo atual do slide
+          slideContent = tentativeContent;
+        }
+      });
+    }
+  </script>
+</body>
+</html>
+
+<*------------------------------------*>
+
+agora vamos gerar um codigo html estruturando classes de elementos e classes css
+
+va
+
+se ele se encaixar na regra abaixo
+const temaRegex = /^Tema\s+\d+\s*-\s*(.*)$/i; // Ex.: "Tema 1 - Apresentação"
+a saida deve ser
+
+se vamos verificar se encaixa nessa regra para receber um 
+    const moduloRegex = /^Módulo\s+\d+\s*-\s*(.*)$/i; // Ex.: "Módulo 1 - Introdução"
+
+segundo ela vai criar o css:
+/* Movimentação do carrossel */
+/* Padrão de movimentação para 50 cards no carrossel */
+#card1:checked ~ .slides { transform: translateY(100vh); }
+#card2:checked ~ .slides { transform: translateY(5vh); }
+#card3:checked ~ .slides { transform: translateY(-90vh); }
+#card4:checked ~ .slides { transform: translateY(-185vh); }
+
+terceiro ela vai criar as ul dentro do menu lateral:
+/* Movimentação do carrossel */
+/* Padrão de movimentação para 50 cards no carrossel */
+#card1:checked ~ .slides { transform: translateY(100vh); }
+#card2:checked ~ .slides { transform: translateY(5vh); }
+#card3:checked ~ .slides { transform: translateY(-90vh); }
+#card4:checked ~ .slides { transform: translateY(-185vh); }
+
+por ultimo vai criar os inputs dentro de carrosse:
+<div class="carousel">
+<!-- 50 inputs para o carrossel -->
+<input type="radio" name="carousel" id="card1" checked tabindex="0">
+<input type="radio" name="carousel" id="card2" tabindex="0">
+<input type="radio" name="carousel" id="card3" tabindex="0">
+<input type="radio" name="carousel" id="card4" tabindex="0">
+
+///////////////////////////////////
+código que gera menu e slides, conforme div slide
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrossel Vertical com Menu Dinâmico</title>
+  <style>
+    /* Reset e configurações gerais */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: black;
+      color: #95aed7;
+      font-family: 'Calibri', sans-serif;
+      /* O overflow do body fica oculto; a rolagem ocorre no carrossel */
+      overflow: hidden;
+    }
+    /* Botão de menu (hambúrguer) */
+    .menu-btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      z-index: 300;
+    }
+    .menu-btn div {
+      width: 25px;
+      height: 3px;
+      background-color: #95aed7;
+      transition: transform 1.3s;
+    }
+    /* Menu lateral */
+    .menu {
+      position: fixed;
+      top: 0;
+      left: -250px; /* Oculto inicialmente */
+      width: 250px;
+      height: 100vh;
+      background: rgba(34,34,34,0.5);
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+      transition: left 0.3s;
+      z-index: 200;
+      overflow-y: auto;
+      backdrop-filter: blur(10px);
+      border-right: 1px solid rgba(255,255,255,0.2);
+    }
+    .menu.open {
+      left: 0;
+    }
+    .menu .menu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      border-bottom: 1px solid grey;
+      margin-bottom: 15px;
+      color: #95aed7;
+    }
+    .menu .menu-header .menu-icons {
+      display: flex;
+      align-items: center;
+    }
+    .menu .close-menu {
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .menu .close-menu:hover {
+      transform: scale(1.1);
+    }
+    .menu ul {
+      list-style: none;
+      padding: 0;
+    }
+    .menu ul li {
+      margin: 20px 0;
+    }
+    .menu ul li a,
+    .menu ul li label {
+      display: block;
+      padding: 10px;
+      color: #a1cca9;
+      font-size: 18px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out, background-color 0.3s;
+      border-radius: 5px;
+    }
+    .menu ul li a:hover,
+    .menu ul li label:hover {
+      border: 2px solid #95aed7;
+      transform: scale(1.1);
+    }
+    .menu ul li label.active {
+      background-color: #95aed7;
+      color: #151819;
+      transform: scale(1.1);
+    }
+    /* Carousel com scroll snap */
+    .carousel {
+      width: 100vw;
+      height: 100vh;
+      overflow-y: auto;
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+      position: relative;
+    }
+    .slides {
+      /* Container dos slides; os slides se empilham verticalmente */
+    }
+    .slide {
+      width: 100%;
+      height: 100vh;
+      scroll-snap-align: start;
+      padding: 20px;
+    }
+    /* Exemplo de estilos para conteúdo dos slides */
+    .slide .tema {
+      text-align: right;
+      font-size: 20pt;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    .slide .modulo {
+      text-align: right;
+      font-size: 14pt;
+      font-weight: bold;
+      margin-bottom: 0.3em;
+    }
+    .slide .textoJustificado {
+      text-align: justify;
+      text-justify: inter-word;
+      font-size: 12pt;
+      line-height: 1.5;
+      text-indent: 2em;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <!-- Menu Lateral -->
+  <nav class="menu" id="sideMenu">
+    <div class="menu-header">
+      <div class="menu-icons">
+        <a href="https://www.facebook.com/?locale=pt_BR">
+          <svg aria-label="Página inicial" fill="#95aed7" height="24" role="img" viewBox="0 0 24 24" width="24">
+            <path d="M22 23h-6.001a1 1 0 0 1-1-1v-5.455a2.997 2.997 0 1 0-5.993 0V22a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V11.543a1.002 1.002 0 0 1 .31-.724l10-9.543a1.001 1.001 0 0 1 1.38 0l10 9.543a1.002 1.002 0 0 1 .31.724V22a1 1 0 0 1-1 1Z"></path>
+          </svg>
+        </a>
+      </div>
+      <!-- Botão para fechar o menu -->
+      <button class="close-menu" onclick="toggleMenu()">✖</button>
+    </div>
+    <ul id="menuItems">
+      <!-- Itens do menu serão gerados dinamicamente com base no conteúdo dos slides -->
+    </ul>
+  </nav>
+
+  <!-- Botão de Menu (Hambúrguer) -->
+  <div class="menu-btn" id="menuBtn" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Carousel (scroll snap) -->
+  <div class="carousel" id="carousel">
+    <div class="slides" id="slidesContainer">
+      <!-- Os slides já são adicionados dinamicamente (pode ser feito via back-end ou inserido manualmente) -->
+      <!-- Exemplo estático: -->
+      <div class="slide">
+        <div class="tema">Tema 1 - Apresentação</div>
+        <div class="modulo">Módulo 1 - Requisitos de Especificação</div>
+        <div class="textoJustificado">
+          <p>O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema...</p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="tema">Tema 2 - Introdução a Requisitos de Sistemas</div>
+        <div class="modulo">Módulo 1 – Introdução</div>
+        <div class="textoJustificado">
+          <p>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...</p>
+        </div>
+      <div class="slide">
+        <div class="tema">Tema 2 - Introdução a Requisitos de Sistemas</div>
+        <div class="modulo">Módulo 1 – Introdução</div>
+        <div class="textoJustificado">
+          <p>>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos...</p>
+        </div>
+      </div>
+       <div class="slide">
+        <div class="tema">Tema 1 - Apresentação</div>
+        <div class="modulo">Módulo 1 - Requisitos de Especificação</div>
+        <div class="textoJustificado">
+          <p>O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema...</p>
+        </div>
+      </div>
+      <!-- Outros slides podem ser inseridos aqui -->
+    </div>
+  </div>
+
+  <script>
+    /* ===== Controle do Menu ===== */
+    function disableBodyScroll() {
+      document.body.style.overflow = "hidden";
+    }
+    function enableBodyScroll() {
+      document.body.style.overflow = "auto";
+    }
+    function openMenu() {
+      document.getElementById("sideMenu").classList.add("open");
+      document.getElementById("menuBtn").style.display = "none";
+      disableBodyScroll();
+    }
+    function closeMenu() {
+      document.getElementById("sideMenu").classList.remove("open");
+      document.getElementById("menuBtn").style.display = "flex";
+      enableBodyScroll();
+    }
+    function toggleMenu() {
+      const sideMenu = document.getElementById("sideMenu");
+      if (sideMenu.classList.contains("open")) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    }
+    // Permite que toggleMenu() seja usado via onclick nos elementos HTML
+    window.toggleMenu = toggleMenu;
+
+    /* ===== Geração Dinâmica do Menu =====
+       Para cada slide presente em #slidesContainer, procura:
+         - Se existir um elemento com classe .tema, gera um item de menu (li com classe "temaNoMenu");
+         - Se existir um elemento com classe .modulo, gera um item (com um <label>).
+       Ao clicar, o slide correspondente é trazido à vista (via scrollIntoView) e o menu fecha.
+    */
+    function generateMenu() {
+      const slides = document.querySelectorAll("#slidesContainer .slide");
+      const menuItemsContainer = document.getElementById("menuItems");
+      menuItemsContainer.innerHTML = ""; // limpa itens anteriores
+      slides.forEach((slide, index) => {
+        // Se existir um título (tema)
+        const temaEl = slide.querySelector(".tema");
+        if (temaEl) {
+          const liTema = document.createElement("li");
+          liTema.classList.add("temaNoMenu");
+          liTema.textContent = (index + 1) + " - " + temaEl.innerText;
+          liTema.addEventListener("click", () => {
+            slide.scrollIntoView({ behavior: "smooth" });
+            closeMenu();
+          });
+          menuItemsContainer.appendChild(liTema);
+        }
+        // Se existir um módulo
+        const moduloEl = slide.querySelector(".modulo");
+        if (moduloEl) {
+          const liModulo = document.createElement("li");
+          const label = document.createElement("label");
+          label.textContent = moduloEl.innerText;
+          label.addEventListener("click", () => {
+            slide.scrollIntoView({ behavior: "smooth" });
+            closeMenu();
+          });
+          liModulo.appendChild(label);
+          menuItemsContainer.appendChild(liModulo);
+        }
+      });
+    }
+
+    /* ===== Comportamento do Ícone do Menu via Clique na Área dos Slides =====
+       - Se o menu estiver aberto, um clique na área dos slides o fecha (e exibe o ícone);
+       - Se o menu estiver fechado, o clique alterna a visibilidade do ícone.
+    */
+    function setupSlideClickToggle() {
+      const carousel = document.getElementById("carousel");
+      const menuBtn = document.getElementById("menuBtn");
+      carousel.addEventListener("click", (e) => {
+        // Se o clique veio do próprio botão de menu, não faz nada
+        if (e.target.closest(".menu-btn")) return;
+        const sideMenu = document.getElementById("sideMenu");
+        if (sideMenu.classList.contains("open")) {
+          closeMenu();
+        } else {
+          // Se o ícone estiver oculto, exibe-o; se estiver visível, oculta-o.
+          if (getComputedStyle(menuBtn).display === "none") {
+            menuBtn.style.display = "flex";
+          } else {
+            menuBtn.style.display = "none";
+          }
+        }
+      });
+    }
+
+    /* ===== Inicialização ===== */
+    document.addEventListener("DOMContentLoaded", () => {
+      generateMenu();
+      setupSlideClickToggle();
+    });
+  </script>
+</body>
+</html>
+/////////////////////////////////////////
+
+codigo gera div slide conforme o conteudo
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel Vertical com Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            background-color: black;
+		    color: #95aed7;   
+        }
+
+        /* Botão de menu (Hambúrguer) */
+        .menu-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            z-index: 300;
+        }
+
+        .menu-btn div {
+            width: 25px;
+            height: 3px;
+            background-color: #95aed7;
+            transition: transform 1.3s;
+        }
+
+		/* Estilo do menu lateral */
+        .menu {
+		   position: fixed;
+		   top: 0;
+		   left: -250px; /* Escondido inicialmente */
+		   width: 250px;
+		   height: 100vh;
+		   background: rgba(34, 34, 34, 0.5); /* Transparente */
+		   padding: 20px;
+		   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+		   transition: left 0.3s;
+		   z-index: 200;
+		   overflow-y: auto; /* Permite rolagem dentro do menu */
+		   backdrop-filter: blur(10px); /* Efeito vidro */
+		   border-right: 1px solid rgba(255, 255, 255, 0.2); /* Borda suave */
+		}
+
+		/* Estilizar os links como os labels e destca slide atual */
+		.menu ul li a, 		
+		.menu ul li label {
+		    display: block;
+		    padding: 10px;
+		    color: #a1cca9;
+		    font-size: 18px;
+		    text-decoration: none;
+		    cursor: pointer;
+		    transition: transform 0.2s ease-in-out, background-color 0.3s;
+		    border-radius: 5px;
+		}
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin: 20px 0;
+        }
+		
+        .menu ul li a:hover, 
+		.menu ul li label:hover {
+    		border: 2px solid #95aed7; /* Blue highlight */
+    		border-radius: 5px; /* Deixa as bordas arredondadas */            
+    		transform: scale(1.1);
+        }
+        
+		/* Estilização da header do menu */
+		.menu-header {
+		    display: flex;
+		    justify-content: space-between; /* Home à esquerda e X à direita */
+		    align-items: center; /* Centraliza verticalmente */
+		    padding: 15px;
+		    border-bottom: 1px solid grey; /* Linha separadora */
+		    margin-bottom: 15px; /* Espaço extra abaixo do cabeçalho */            
+            color: #95aed7;
+		}
+		
+		/* Container para o ícone Home */
+		.menu-icons {
+		    display: flex;
+		    align-items: center;
+		}
+		
+		/* Estilização do botão de fechar */
+		.close-menu {
+		    background: transparent;
+		    border: none;
+		    font-size: 20px;
+		    cursor: pointer;
+		}
+
+		
+		/* Efeito de scale ao passar o mouse + mudança de cor na moldura */
+		.close-menu:hover {
+		    transform: scale(1.1); /* Aumenta 20% o tamanho */
+		}
+
+        /* Classe para abrir o menu */
+        .menu.open {
+            left: 0;
+        }
+        
+		.menu ul li label.active {
+		    background-color: #95aed7; /* Blue highlight */
+		    color: #151819;
+		    transform: scale(1.1);
+		}
+        
+		
+        
+        /**/
+		/* Personalizar a barra de rolagem no WebKit (Chrome, Edge, Safari) */
+.menu::-webkit-scrollbar {
+    width: 5px; /* Largura inicial menor */
+    background: transparent;
+    transition: width 0.3s ease-in-out;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background: rgba(161, 204, 169, 0.5); /* Verde semi-transparente */
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+/* Quando o mouse passa sobre a barra de rolagem (thumb), aumenta a largura */
+.menu:hover::-webkit-scrollbar {
+    width: 8px; /* Aumenta a largura da barra quando o menu está em uso */
+}
+
+/* Quando o mouse passa sobre a própria barra (thumb), aumenta a opacidade */
+.menu::-webkit-scrollbar-thumb:hover {
+    background: rgba(161, 204, 169, 0.9); /* Mais opaco ao passar o mouse */
+}
+
+
+        /* Carrossel */
+        .carousel {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slides {
+            width: 50vh;
+            height: 300vh;
+            transition: transform 0.4s ease-in-out;
+        }
+        
+        /* Quando a classe "no-transition" for adicionada, remove a animação */
+		.slides.no-transition {
+		    transition: none !important;
+		}
+        .slide {
+        	width: 50vh;
+        	height: 90vh;
+        	margin: 5vh 0;
+        	border-radius: 8px;
+        	text-align: center;
+        	padding: 5px;
+        	/* Gradiente sutil do topo mais claro para a base preta */
+        	background: linear-gradient(
+        	to bottom,
+        	#1f1f1f, /* topo levemente mais claro */
+        	#151819  /* base mais escura */
+        	);
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+		/* Classe para o "TEMA", alinhado à direita */
+		.tema {
+		    text-align: right;
+		    font-family: 'Calibri', sans-serif; /* ou 'Times New Roman', serif */
+		    font-size: 20pt;                    /* Word costuma usar pt, mas pode adaptar */
+		    font-weight: bold;                  /* título em negrito */
+		    margin: 0.5em 0;                    /* espaço antes e depois */
+		}
+
+		/* Classe para o "MÓDULO", também alinhado à direita */
+		.modulo {
+		    text-align: right;
+		    font-family: 'Calibri', sans-serif;
+		    font-size: 14pt;
+		    font-weight: bold;
+		    margin: 0.3em 0;
+		}
+		
+		.textoJustificado {
+		    text-align: justify;
+		    text-justify: inter-word;  /* ajuda na distribuição das palavras em alguns navegadores */
+		    
+		    font-family: 'Calibri', sans-serif; /* ou outra fonte */
+		    font-size: 12pt;
+		    line-height: 1.5;
+		    
+		    /* recuo de primeira linha */
+		    text-indent: 2em; /* Ajuste o valor conforme a necessidade */
+		
+		    margin: 1em 0;
+		}
+
+
+        input[type="radio"] {
+            position: absolute;
+            left: -9999px;
+        }
+        
+        /* Movimentação do carrossel */
+/* Padrão de movimentação para 50 cards no carrossel */
+#card1:checked ~ .slides { transform: translateY(100vh); }
+#card2:checked ~ .slides { transform: translateY(5vh); }
+#card3:checked ~ .slides { transform: translateY(-90vh); }
+#card4:checked ~ .slides { transform: translateY(-185vh); }
+
+
+
+    </style>
+</head>
+<body>
+
+<!-- Menu Lateral -->
+<nav class="menu">
+<div class="menu-header">
+    <!-- Ícone Home à esquerda -->
+    <div class="menu-icons">
+        <a href="https://www.facebook.com/?locale=pt_BR">
+            <svg aria-label="Página inicial" fill="#95aed7" height="24" role="img" viewBox="0 0 24 24" width="24">
+                <path d="M22 23h-6.001a1 1 0 0 1-1-1v-5.455a2.997 2.997 0 1 0-5.993 0V22a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V11.543a1.002 1.002 0 0 1 .31-.724l10-9.543a1.001 1.001 0 0 1 1.38 0l10 9.543a1.002 1.002 0 0 1 .31.724V22a1 1 0 0 1-1 1Z"></path>
+            </svg>
+        </a>
+    </div>
+
+    <!-- Botão de fechar à direita -->
+    <button class="close-menu" onclick="toggleMenu()">✖</button>
+</div>
+
+
+
+<ul>
+    <li class="semester"> 1º SEMESTRE - Abr/24</li>
+    <li><label for="card1">☐ Arquitetura De Computadores</label></li>
+    <li><label for="card2">☐ Paradigmas De Linguagens De Programação Em Python</label></li>
+    <li><label for="card3">☐ Introdução À Segurança Da Informação</label></li>
+    <li><label for="card4">☐ Língua Portuguesa</label></li>  
+</ul>
+
+
+
+	</nav>
+	
+	<!-- Botão de Menu (Hambúrguer) -->
+	<div class="menu-btn" onclick="toggleMenu()">
+	    <div></div>
+	    <div></div>
+	    <div></div>
+	</div>
+
+    <div class="carousel">
+<!-- 50 inputs para o carrossel -->
+<input type="radio" name="carousel" id="card1" checked tabindex="0">
+<input type="radio" name="carousel" id="card2" tabindex="0">
+<input type="radio" name="carousel" id="card3" tabindex="0">
+<input type="radio" name="carousel" id="card4" tabindex="0">
+
+
+        
+<div class="slides">
+
+    <!-- Tema 1 - Apresentação -->
+
+    <div class="tema">
+        Tema 1 - Apresentação
+    </div>
+
+
+
+    <div class="modulo">
+        Módulo 1 - Requisitos de Especificação
+    </div>
+
+
+
+    <div class="textoJustificado">
+        <p>O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídasO que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídasO que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas</p>
+
+    </div>
+
+<!-- Tema 2 - Introdução a Requisitos de Sistemas / Módulo 1 -->
+
+    <div class="tema">
+        <p>Tema 2 - Introdução a Requisitos de Sistemas</p>
+    </div>
+    <div class="modulo">
+        Módulo 1 – Introdução
+    </div>
+    <div class="textoJustificado">
+        <p>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos, como pão, leite e ovos. Assim, ao vender ou receber mercadorias, o sistema atualiza tudo sozinho.</p>
+    </div>
+
+
+
+</div>
+    
+    <script>
+let startY;
+let isScrolling = false;
+
+// Function to update active menu item
+function updateActiveMenu() {
+    let slides = document.querySelectorAll('input[name="carousel"]');
+    let labels = document.querySelectorAll(".menu ul li label");
+
+    slides.forEach(slide => {
+        if (slide.checked) {
+            labels.forEach(label => label.classList.remove("active")); // Remove active from all labels
+            let activeLabel = document.querySelector(`.menu ul li label[for="${slide.id}"]`);
+            if (activeLabel) {
+                activeLabel.classList.add("active");
+            }
+        }
+    });
+}
+
+// Toggle menu visibility
+function toggleMenu() {
+    let menu = document.querySelector(".menu");
+    let menuBtn = document.querySelector(".menu-btn");
+
+    menu.classList.toggle("open");
+
+    if (menu.classList.contains("open")) {
+        menuBtn.style.display = "none"; // Esconder botão do menu quando o menu estiver aberto
+        disableBodyScroll();
+    } else {
+        menuBtn.style.display = "flex"; // Mostrar botão do menu quando o menu estiver fechado
+        enableBodyScroll();
+    }
+}
+
+// Prevent background scrolling when the menu is open
+function disableBodyScroll() {
+    document.body.style.overflow = "hidden";
+}
+
+// Allow background scrolling when the menu is closed
+function enableBodyScroll() {
+    document.body.style.overflow = "auto";
+}
+
+// Prevent menu from propagating scroll events
+function stopScrollPropagation(event) {
+    event.stopPropagation();
+}
+ 
+
+ 
+// Função para navegar para um slide sem animação
+function scrollToCard(index) {
+    let slides = document.querySelector(".slides");
+    let slideInput = document.getElementById("card" + (index + 1));
+
+    if (slideInput) {
+        slides.classList.add("no-transition"); // Remove a animação
+
+        // Fecha o menu ANTES de mudar o slide
+        toggleMenu();
+        slideInput.checked = true; // Seleciona o slide correspondente
+
+        setTimeout(() => {
+            slides.classList.remove("no-transition"); // Restaura a animação após 50ms
+            updateActiveMenu(); // Atualiza o destaque do menu
+        }, 50);
+    }
+}
+ 
+
+ 
+ 
+// Aplica a função nos itens do menu
+document.querySelectorAll(".menu ul li label").forEach((label, index) => {
+    label.addEventListener("click", () => scrollToCard(index));
+});
+
+ 
+
+
+// Attach event listeners to each slide input (radio buttons)
+document.querySelectorAll('input[name="carousel"]').forEach(input => {
+    input.addEventListener("change", updateActiveMenu);
+});
+
+
+// Handle scrolling (mouse wheel) for slide change
+document.addEventListener("wheel", function(event) {
+    let menu = document.querySelector(".menu");
+    if (menu.classList.contains("open")) return; // Don't scroll carousel when menu is open
+
+    if (isScrolling) return;
+    isScrolling = true;
+    event.preventDefault();
+
+    let slides = document.querySelectorAll('input[name="carousel"]');
+    let checkedIndex = [...slides].findIndex(slide => slide.checked);
+
+    if (event.deltaY > 0 && checkedIndex < slides.length - 1) {
+        slides[checkedIndex + 1].checked = true;
+    } else if (event.deltaY < 0 && checkedIndex > 0) {
+        slides[checkedIndex - 1].checked = true;
+    }
+
+    updateActiveMenu();
+    setTimeout(() => isScrolling = false, 400);
+}, { passive: false });
+
+// Handle touch swipe for slide change
+document.addEventListener("touchstart", function(event) {
+    let menu = document.querySelector(".menu");
+    if (menu.classList.contains("open")) return; // Ignore swipe when menu is open
+    startY = event.touches[0].clientY;
+}, { passive: true });
+
+document.addEventListener("touchend", function(event) {
+    let menu = document.querySelector(".menu");
+    if (menu.classList.contains("open")) return; // Ignore swipe when menu is open
+
+    let endY = event.changedTouches[0].clientY;
+    let slides = document.querySelectorAll('input[name="carousel"]');
+    let checkedIndex = [...slides].findIndex(slide => slide.checked);
+    let swipeThreshold = 50;
+
+    if (startY - endY > swipeThreshold && checkedIndex < slides.length - 1) {
+        slides[checkedIndex + 1].checked = true;
+    } else if (endY - startY > swipeThreshold && checkedIndex > 0) {
+        slides[checkedIndex - 1].checked = true;
+    }
+
+    updateActiveMenu();
+}, { passive: true });
+
+
+// Initialize menu highlight on page load
+document.addEventListener("DOMContentLoaded", updateActiveMenu);
+
+
+// Força o foco na página para capturar eventos de tecla
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.setAttribute("tabindex", "0");
+    document.body.focus();
+});
+
+// Permitir navegação pelos slides com as setas do teclado
+document.addEventListener("keydown", function(event) {
+    let slides = document.querySelectorAll('input[name="carousel"]');
+    let checkedIndex = [...slides].findIndex(slide => slide.checked);
+
+    if (event.key === "ArrowDown" && checkedIndex < slides.length - 1) {
+        slides[checkedIndex + 1].checked = true;
+    } else if (event.key === "ArrowUp" && checkedIndex > 0) {
+        slides[checkedIndex - 1].checked = true;
+    }
+
+    updateActiveMenu(); // Atualizar o menu quando trocar de slide
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+        const menuBtn = document.querySelector(".menu-btn");
+        const menu = document.querySelector(".menu");
+        const cards = document.querySelectorAll(".slide"); // Seleciona os cards
+
+        let menuVisible = false;
+        let menuBtnVisible = false;
+
+        // Alterna a visibilidade do menu
+        function toggleMenu() {
+            if (menuVisible) {
+                menu.classList.remove("open");
+            } else {
+                menu.classList.add("open");
+            }
+            menuVisible = !menuVisible;
+        }
+
+        // Exibir/esconder o botão de menu
+        function toggleMenuButton(show) {
+            if (show) {
+                menuBtn.style.display = "flex";
+                menuBtnVisible = true;
+            } else {
+                menuBtn.style.display = "none";
+                menuBtnVisible = false;
+            }
+        }
+
+        // Evento de clique no botão de menu
+        menuBtn.addEventListener("click", function (event) {
+            event.stopPropagation(); // Evita que o clique no botão de menu também dispare o evento no card
+            toggleMenu();
+        });
+
+        // Evento de clique nos cards
+	cards.forEach(card => {
+	    card.addEventListener("click", function () {
+	        if (menuVisible) {
+	            // Se o menu estiver aberto, fecha o menu e exibe o botão imediatamente
+	            toggleMenu();
+	            toggleMenuButton(true); // Exibir o botão do menu imediatamente
+	        } else {
+	            if (menuBtnVisible) {
+	                toggleMenuButton(false);
+	            } else {
+	                toggleMenuButton(true);
+	            }
+	        }
+	    });
+	});
+
+        // Ocultar o botão do menu inicialmente
+        toggleMenuButton(false);
+    });
+    
+-
+
+// Atualiza a navegação para os novos slides gerados
+function updateCarouselNavigation() {
+    let slides = document.querySelectorAll('input[name="carousel"]');
+
+    document.addEventListener("wheel", function(event) {
+        let checkedIndex = [...slides].findIndex(slide => slide.checked);
+        if (event.deltaY > 0 && checkedIndex < slides.length - 1) {
+            slides[checkedIndex + 1].checked = true;
+        } else if (event.deltaY < 0 && checkedIndex > 0) {
+            slides[checkedIndex - 1].checked = true;
+        }
+        updateActiveMenu();
+    }, { passive: false });
+
+    document.addEventListener("keydown", function(event) {
+        let checkedIndex = [...slides].findIndex(slide => slide.checked);
+        if (event.key === "ArrowDown" && checkedIndex < slides.length - 1) {
+            slides[checkedIndex + 1].checked = true;
+        } else if (event.key === "ArrowUp" && checkedIndex > 0) {
+            slides[checkedIndex - 1].checked = true;
+        }
+        updateActiveMenu();
+    });
+
+    document.addEventListener("touchstart", function(event) {
+        startY = event.touches[0].clientY;
+    }, { passive: true });
+
+    document.addEventListener("touchend", function(event) {
+        let endY = event.changedTouches[0].clientY;
+        let checkedIndex = [...slides].findIndex(slide => slide.checked);
+        let swipeThreshold = 50;
+
+        if (startY - endY > swipeThreshold && checkedIndex < slides.length - 1) {
+            slides[checkedIndex + 1].checked = true;
+        } else if (endY - startY > swipeThreshold && checkedIndex > 0) {
+            slides[checkedIndex - 1].checked = true;
+        }
+        updateActiveMenu();
+    }, { passive: true });
+}
+
+// Atualiza o menu lateral conforme o slide ativo
+function updateActiveMenu() {
+    let slides = document.querySelectorAll('input[name="carousel"]');
+    let labels = document.querySelectorAll(".menu ul li label");
+
+    slides.forEach(slide => {
+        if (slide.checked) {
+            labels.forEach(label => label.classList.remove("active"));
+            let activeLabel = document.querySelector(`.menu ul li label[for="${slide.id}"]`);
+            if (activeLabel) {
+                activeLabel.classList.add("active");
+            }
+        }
+    });
+}
+
+        
+    </script>
+
+</body>
+</html>
+//////////////////////////////
+Gera uma página html com uma div carousel que vai receber um codigo como esse exemplo manualmente dentro da div carousel 
+ <!-- Tema 1 - Apresentação -->
+
+    <div class="tema">
+        Tema 1 - Apresentação
+    </div>
+
+
+
+    <div class="modulo">
+        Módulo 1 - Requisitos de Especificação
+    </div>
+
+
+
+    <div class="textoJustificado">
+        <p>O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídasO que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídasO que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas esperadas para o sistema, ou seja, que os objetivos estão alinhados com a necessidade?O que realmente o sistema deve fazer; quais são as entradas disponíveis e as saídas</p>
+
+    </div>
+
+<!-- Tema 2 - Introdução a Requisitos de Sistemas / Módulo 1 -->
+
+    <div class="tema">
+        <p>Tema 2 - Introdução a Requisitos de Sistemas</p>
+    </div>
+    <div class="modulo">
+        Módulo 1 – Introdução
+    </div>
+    <div class="textoJustificado">
+        <p>Imagine que uma padaria quer um programa que registre automaticamente a entrada e saída de produtos, como pão, leite e ovos. Assim, ao vender ou receber mercadorias, o sistema atualiza tudo sozinho.</p>
+    </div>
+o objetivo é que a pagina html tenha uma função que faça a leitrua da div carou sel quando for carregada,
+em seguida ela acomodar dinamicamente o conteudo dentro da div causel em div card, cada card deve ter essa medidas
+
+        .card {
+        	width: 50vh;
+        	height: 90vh;
+        	margin: 5vh 0;
+        	border-radius: 8px;
+        	text-align: center;
+        	padding: 5px;
+        	/* Gradiente sutil do topo mais claro para a base preta */
+        	background: linear-gradient(
+        	to bottom,
+        	#1f1f1f, /* topo levemente mais claro */
+        	#151819  /* base mais escura */
+        	);
+        }
+se o texto for mt longo e não couber em uma unica divcard devido ao tamanho da tela do dispositivo deve haver uma função para testar isso e acomadar o restante em uma proxia div card até o final do conteudo,
+após isso deve haver uma função que cria dinamicamente um menu com itens baseado em algumas condições começando nas divs que foram criadas e no nome tema e nome modulo, se ele encontrar o formato palavra "tema" + numero + nome do tema deve criar apenas um titulo no menu,
+se ele encontrar o formato palavra "modulo" + numero + nome do modulo deve criar um link no menu,
+
+////////////////////////////
+gera a pagina com o texto inserido em uma div
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quebra de Slides - Texto na Div Carousel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    /* Esse container é onde você insere o texto manualmente.
+       Você pode ocultá-lo depois de processado, se preferir. */
+    #carousel {
+      /* Remova o comentário se quiser ocultar o texto original: */
+      display: none;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px dashed #888;
+    }
+    #slidesContainer {
+      margin-top: 20px;
+    }
+    .slides {
+      width: 50vh;
+      height: 100vh;
+      transition: transform 0.4s ease-in-out;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow: hidden;
+      white-space: pre-wrap;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .textoJustificado {
+      text-align: justify;
+      text-justify: inter-word;
+      word-break: break-word;
+      white-space: pre-wrap;
+      width: 100%;
+      display: block;
+    }
+
+  	/* Classe para o "TEMA", alinhado à direita */
+  	.tema {
+  	    text-align: right;
+  	    font-family: 'Calibri', sans-serif;
+  	    font-size: 20pt;
+  	    font-weight: bold;
+  	    margin: 0.5em 0;
+  	}
+    
+  	
+  	/* Classe para o "MÓDULO", também alinhado à direita */
+  	.modulo {
+  	    text-align: right;
+  	    font-family: 'Calibri', sans-serif;
+  	    font-size: 14pt;
+  	    font-weight: bold;
+  	    margin: 0.3em 0;
+  	}
+  	
+  	.textoJustificado {
+  	    text-align: justify;
+  	    text-justify: inter-word;
+  	    font-family: 'Calibri', sans-serif;
+  	    font-size: 12pt;
+  	    line-height: 1.5;
+  	    text-indent: 2em;
+  	    margin: 1em 0;
+  	}
+
+  </style>
+</head>
+<body>
+  <h1>Quebra de Slides</h1>
+  
+  <!-- Div onde você insere o texto diretamente -->
+  <div id="carousel">
+<div id="carousel">
+  <div class="tema">
+    Tema 1 - Apresentação
+  </div>
+  <div class="modulo">
+    Módulo 1 - Requisitos de Especificação
+  </div>
+  <div class="textoJustificado">
+    <p>
+      Este é o texto que será exibido de forma justificada. Ele será processado (por exemplo, para divisão em slides) e o estilo definido na classe .textoJustificado será aplicado.
+    </p>
+  </div>
+  <div class="tema">
+    Tema 2 - Introdução a Requisitos de Sistemas
+  </div>
+  <div class="modulo">
+    Módulo 1 – Introdução
+  </div>
+  <div class="textoJustificado">
+    <p>
+      Outro exemplo de texto justificado que pode conter informações complementares ao tema e módulo apresentados.
+    </p>
+  </div>
+</div>
+
+    <strong>Insira seu texto aqui diretamente.  </strong>
+    Este é um exemplo de texto que será processado para dividir em slides token por token.  
+    Adicione mais conteúdo para testar o comportamento de quebra de slides.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius semper magna, ut luctus augue interdum eu.  
+    Curabitur in tincidunt lorem. Vivamus faucibus, ipsum in tincidunt suscipit, nibh turpis tincidunt dui, a vehicula sapien ex et urna.  
+    Mauris scelerisque, elit ut fermentum finibus, orci quam egestas turpis, quis ultricies neque massa id nisi.   Insira seu texto aqui diretamente.  
+    Este é um exemplo de texto que será processado para dividir em slides token por token.  
+    Adicione mais conteúdo para testar o comportamento de quebra de slides.  
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius semper magna, ut luctus augue interdum eu.  
+    Curabitur in tincidunt lorem. Vivamus faucibus, ipsum in tincidunt suscipit, nibh turpis tincidunt dui, a vehicula sapien ex et urna.  
+    Mauris scelerisque, elit ut fermentum finibus, orci quam egestas turpis, quis ultricies neque massa id nisi.   Insira seu texto aqui diretamente.  
+    Este é um exemplo de texto que será processado para dividir em slides token por token.  
+    Adicione mais conteúdo para testar o comportamento de quebra de slides.  
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius semper magna, ut luctus augue interdum eu.  
+    Curabitur in tincidunt lorem. Vivamus faucibus, ipsum in tincidunt suscipit, nibh turpis tincidunt dui, a vehicula sapien ex et urna.  
+    Mauris scelerisque, elit ut fermentum finibus, orci quam egestas turpis, quis ultricies neque massa id nisi.   Insira seu texto aqui diretamente.  
+    Este é um exemplo de texto que será processado para dividir em slides token por token.  
+    Adicione mais conteúdo para testar o comportamento de quebra de slides.  
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius semper magna, ut luctus augue interdum eu.  
+    Curabitur in tincidunt lorem. Vivamus faucibus, ipsum in tincidunt suscipit, nibh turpis tincidunt dui, a vehicula sapien ex et urna.  
+    Mauris scelerisque, elit ut fermentum finibus, orci quam egestas turpis, quis ultricies neque massa id nisi.
+  </div>
+  
+  <!-- Container onde os slides gerados serão inseridos -->
+  <div id="slidesContainer"></div>
+  
+  <script>
+    function processText() {
+      // Obtém o texto inserido diretamente na div "carousel"
+      const text = document.getElementById("carousel").innerText;
+      const container = document.getElementById("slidesContainer");
+      container.innerHTML = "";  // Limpa slides anteriores
+      
+      // Dividimos o texto em "tokens" (palavras e os espaços em branco)
+      const tokens = text.split(/(\s+)/);
+      
+      // Variável que acumula o conteúdo do slide corrente
+      let slideContent = "";
+      
+      // Cria o primeiro slide
+      let slide = document.createElement("div");
+      slide.className = "slides";
+      
+      // Cria um container para o texto justificado dentro do slide
+      let textoDiv = document.createElement("div");
+      textoDiv.className = "textoJustificado";
+      slide.appendChild(textoDiv);
+      container.appendChild(slide);
+      
+      // Para cada token (palavra, espaço, quebra de linha, etc.)
+      tokens.forEach(token => {
+        let tentativeContent = slideContent + token;
+        textoDiv.innerHTML = `<p>${tentativeContent}</p>`;
+        
+        // Se o conteúdo ultrapassar a área disponível do slide...
+        if (slide.scrollHeight > slide.clientHeight) {
+          // Finaliza o slide atual (reverte a adição do token)
+          textoDiv.innerHTML = `<p>${slideContent}</p>`;
+          
+          // Cria um novo slide para continuar com o restante do texto
+          slide = document.createElement("div");
+          slide.className = "slides";
+          
+          textoDiv = document.createElement("div");
+          textoDiv.className = "textoJustificado";
+          slide.appendChild(textoDiv);
+          container.appendChild(slide);
+          
+          // O token que não coube inicia o novo slide
+          slideContent = token;
+          textoDiv.innerHTML = `<p>${slideContent}</p>`;
+          
+          // Se o token for muito grande (por exemplo, uma palavra sem espaços que ultrapassa o limite)
+          if (slide.scrollHeight > slide.clientHeight) {
+            let partial = "";
+            for (let j = 0; j < token.length; j++) {
+              let char = token[j];
+              let tentative = partial + char;
+              textoDiv.innerHTML = `<p>${tentative}</p>`;
+              if (slide.scrollHeight > slide.clientHeight) {
+                break;
+              } else {
+                partial = tentative;
+              }
+            }
+            textoDiv.innerHTML = `<p>${partial}</p>`;
+            slideContent = partial;
+          }
+        } else {
+          // Se couber, atualiza o conteúdo atual do slide
+          slideContent = tentativeContent;
+        }
+      });
+    }
+    
+    // Processa o texto automaticamente quando o DOM estiver carregado
+    document.addEventListener("DOMContentLoaded", processText);
+  </script>
+</body>
+</html>
+
+//////////////////////////////////////////////////
+menu criado dinamicamente e tela saltando conteudo
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Dinâmico</title>
+    <style>
+        /* Estilos gerais */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        /* Menu Lateral */
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #333;
+            color: #fff;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+            overflow-y: scroll;
+        }
+        .menu.open {
+            transform: translateX(0);
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu ul li {
+            padding: 15px;
+            border-bottom: 1px solid #444;
+            cursor: pointer;
+        }
+        .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+        .menu ul li.active {
+            background-color: #555;
+            font-weight: bold;
+        }
+        /* Ícone do Menu (botão hamburguer) */
+        .menu-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 30px;
+            color: #333;
+            cursor: pointer;
+            z-index: 10;
+            display: flex; /* Permite centralizar seu conteúdo */
+        }
+        /* Container de Conteúdo */
+        .container {
+            margin-left: 270px;
+            padding: 20px;
+            height: 100%;
+            overflow-y: scroll;
+        }
+        .tema, .modulo {
+            margin-top: 20px;
+            cursor: pointer; /* Indica que os elementos são clicáveis */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ícone do menu -->
+    <div class="menu-btn">&#9776;</div>
+
+    <!-- Menu Lateral -->
+    <div class="menu">
+        <ul id="menuItems"></ul>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="container" id="container">
+        <h1 class="tema">Tema 1 - Apresentação</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h2 class="modulo">Módulo 1 - Introdução</h2>
+        <p>Curabitur et magna id dui sollicitudin porttitor.</p>
+
+        <h1 class="tema">Tema 2 - História</h1>
+        <p>Donec sit amet nisi nec ligula egestas vestibulum.</p>
+
+        <h2 class="modulo">Módulo 2 - Contexto</h2>
+        <p>Vivamus tristique urna ut elit sollicitudin.</p>
+
+        <h1 class="tema">Tema 3 - Conclusão</h1>
+        <p>Nulla ullamcorper dui et metus suscipit.</p>
+
+        <h2 class="modulo">Módulo 3 - Resumo</h2>
+        <p>Proin ut justo dui. Sed laoreet orci id massa.</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuBtn = document.querySelector(".menu-btn");
+            const menu = document.querySelector(".menu");
+            const menuItems = document.getElementById('menuItems');
+            const container = document.getElementById('container');
+
+            // Estado: menu (lista) e ícone do menu (botão)
+            let menuVisible = false;      // menu lateral (lista) fechado inicialmente
+            let menuBtnVisible = true;    // ícone do menu exibido inicialmente
+
+            // Função para mostrar/ocultar o ícone do menu
+            function toggleMenuButton(show) {
+                if (show) {
+                    menuBtn.style.display = "flex";  // exibe o ícone
+                } else {
+                    menuBtn.style.display = "none";   // oculta o ícone
+                }
+            }
+
+            // Função para abrir/fechar o menu lateral
+            function toggleMenu() {
+                if (menuVisible) {
+                    menu.classList.remove("open");
+                    menuVisible = false;
+                } else {
+                    menu.classList.add("open");
+                    menuVisible = true;
+                }
+            }
+
+            // Ao clicar no ícone do menu, abre o menu e oculta o ícone
+            menuBtn.addEventListener("click", function (event) {
+                event.stopPropagation(); // impede que o clique se propague para o container
+                toggleMenu();
+                // Se o menu foi aberto, o ícone é ocultado para focar na lista
+                if (menuVisible) {
+                    toggleMenuButton(false);
+                    menuBtnVisible = false;
+                }
+            });
+
+            // Evento de clique no container (conteúdo)
+            container.addEventListener("click", function (e) {
+                // Se o clique NÃO for em algum elemento do menu ou no botão do menu
+                if (!menu.contains(e.target) && !menuBtn.contains(e.target)) {
+                    // Se o menu estiver aberto, fecha-o
+                    if (menuVisible) {
+                        menu.classList.remove("open");
+                        menuVisible = false;
+                    }
+                    // Alterna a visibilidade do ícone:
+                    // Se estiver visível, oculta-o; se estiver oculto, exibe-o.
+                    if (menuBtnVisible) {
+                        toggleMenuButton(false);
+                        menuBtnVisible = false;
+                    } else {
+                        toggleMenuButton(true);
+                        menuBtnVisible = true;
+                    }
+                }
+            });
+
+            // Função para criar o menu dinâmico com base nos elementos "tema" e "modulo" do container
+            function createDynamicMenu() {
+                menuItems.innerHTML = ""; // limpa o menu existente
+
+                // Seleciona todos os elementos com as classes .tema e .modulo dentro do container
+                const titulos = container.querySelectorAll('.tema, .modulo');
+                titulos.forEach(function (titulo) {
+                    let listItem = document.createElement('li');
+
+                    // Se for um "Tema" (agora será um link)
+                    if (titulo.classList.contains('tema')) {
+                        const temaText = titulo.textContent.trim();
+                        let link = document.createElement('a');
+                        link.href = "#";
+                        link.innerText = temaText;
+
+                        // Ao clicar no link do Tema:
+                        // - Realça o item clicado
+                        // - Rola suavemente até o elemento correspondente
+                        link.addEventListener('click', function (e) {
+                            e.preventDefault();
+
+                            // Remove a classe 'active' de todos os itens e ativa o item atual
+                            const activeItem = document.querySelector('.menu ul li.active');
+                            if (activeItem) activeItem.classList.remove('active');
+                            listItem.classList.add('active');
+
+                            // Rola até o elemento correspondente
+                            titulo.scrollIntoView({ behavior: "smooth" });
+
+                            // Fecha o menu lateral (lista)
+                            menu.classList.remove("open");
+                            menuVisible = false;
+                        });
+
+                        listItem.appendChild(link);
+                        menuItems.appendChild(listItem);
+                    }
+
+                    // Se for um "Módulo" (comportamento já existente)
+                    if (titulo.classList.contains('modulo')) {
+                        const moduloText = titulo.textContent.trim();
+                        let link = document.createElement('a');
+                        link.href = "#";
+                        link.innerText = moduloText;
+
+                        // Ao clicar no link do Módulo:
+                        // - Realça o item clicado
+                        // - Rola suavemente até o elemento correspondente
+                        link.addEventListener('click', function (e) {
+                            e.preventDefault();
+
+                            // Remove a classe 'active' de todos os itens e ativa o item atual
+                            const activeItem = document.querySelector('.menu ul li.active');
+                            if (activeItem) activeItem.classList.remove('active');
+                            listItem.classList.add('active');
+
+                            // Rola até o elemento correspondente
+                            titulo.scrollIntoView({ behavior: "smooth" });
+
+                            // Fecha o menu lateral (lista)
+                            menu.classList.remove("open");
+                            menuVisible = false;
+                        });
+
+                        listItem.appendChild(link);
+                        menuItems.appendChild(listItem);
+                    }
+                });
+            }
+
+            // Chama a função para criar o menu dinâmico
+            createDynamicMenu();
+
+            // Força o foco na página para capturar eventos de tecla (se necessário)
+            document.body.setAttribute("tabindex", "0");
+            document.body.focus();
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+//////////////////////////////////////////////////
