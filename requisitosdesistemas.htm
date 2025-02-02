@@ -6,7 +6,7 @@
     <title>Carrossel Vertical com Menu</title>
     <style>
 	/* codigo em construcao
-	    <!DOCTYPE html>
+	   <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -20,16 +20,15 @@
         }
 
    		body {
-    		  margin: 0;
-    		  padding: 0;
-    		  height: 100vh;
-    		  overflow: hidden;
-    	}
+    		margin: 0;
+    		padding: 0;
+    		height: 100vh;
+    		overflow: hidden;
+    	
 
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             position: relative;
             background-color: black;
 		    color: #95aed7; 
@@ -37,17 +36,53 @@
             transition: transform 0.4s ease-in-out;
             overflow: scroll-snap;  
         }
+
+    	.container {
+    	  height: 100vh;
+    	  overflow-y: auto;
+    	  scroll-snap-type: y mandatory;
+    	  position: relative;
+    	
+
         /* Container de Conteúdo */
-        .container {
-            position: relative;
+        
+            position: ;
             margin-left: ;
             padding: 20px;
             width: 50vw;
-            height: 100vh;
+            height: ;
             justify-content: center;
             align-items: center;
             overflow-y: ;
         }
+        
+        
+
+    /* Pontos de snap virtuais */
+    .snap-points {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .snap-point {
+      height: 100vh;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+
+        
         /* Carrossel */
         .carousel {
             width: 100vw;
@@ -57,13 +92,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        /*body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            font-family: Arial, sans-serif;
-            overflow: hidden;
         }
         /* Menu Lateral */
         .menu {
@@ -327,9 +355,7 @@ Em 1808, com a transferência da corte portuguesa para o Brasil, fugindo da poss
 
 </body>
 </html>
-
-	
-	*/
+*/
 
 	/* codigo de snap ok
 	    <!DOCTYPE html>
