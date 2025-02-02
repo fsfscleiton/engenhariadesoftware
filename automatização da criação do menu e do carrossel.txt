@@ -8,7 +8,7 @@ https://claude.ai/chat/566ff29e-467f-4687-b8ac-81bbfd9337e2 ia
 ///////////////
 ///////////////
 
-navegacao do menu bom, sem snap, tem que adcionar a funcao de clicar no texto e ocultar a lista de itens
+navegacao do menu bom, sem funcao snap item do menu se posiciona no topo da pagina, tem que adcionar a funcao de clicar no texto e ocultar a lista de itens
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -418,10 +418,39 @@ document.addEventListener("DOMContentLoaded", function () {
     createDynamicMenu();
     container.addEventListener('scroll', updateActiveMenuItem, { passive: true });
 });
+
+// INICIO Função para criar pontos de snap
+function createSnapPoints() {
+    const content = document.querySelector('.content');
+    const snapPoints = document.getElementById('snapPoints');
+    const contentHeight = content.offsetHeight;
+    const viewportHeight = window.innerHeight;
+    const numberOfPoints = Math.ceil(contentHeight / viewportHeight);
+    
+    snapPoints.innerHTML = '';
+    for(let i = 0; i < numberOfPoints; i++) {
+        const point = document.createElement('div');
+        point.className = 'snap-point';
+        snapPoints.appendChild(point);
+    }
+}
+
+// Criar pontos iniciais e atualizar quando a janela for redimensionada
+window.addEventListener('load', createSnapPoints);
+window.addEventListener('resize', createSnapPoints);
+
+// Força o foco na página para capturar eventos de tecla
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.setAttribute("tabindex", "0");
+    document.body.focus();
+});
+// FIM Função para criar pontos de snap
+
     </script>
 
 </body>
 </html>
+
 
 ////////////////
 ////////////////
